@@ -20,6 +20,7 @@ public class ThirdTest extends Base{
 		wd.get("https://www.youtube.com/");
 		System.out.println(wd.getTitle());
 		System.out.println("new line of code");
+		System.out.println("Another new line of code");
 		Assert.assertTrue(false);
 	}
 	
