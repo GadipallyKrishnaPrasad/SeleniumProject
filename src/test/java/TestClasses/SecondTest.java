@@ -18,6 +18,7 @@ public class SecondTest extends Base {
 		wd=buildBase();
 		wd.get("https://www.google.com/");
 		System.out.println(wd.getTitle());
+		System.out.println("new line of code");
 	}
 
 	@AfterMethod
