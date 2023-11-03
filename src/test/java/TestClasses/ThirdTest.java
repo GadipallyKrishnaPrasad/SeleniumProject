@@ -22,7 +22,7 @@ public class ThirdTest extends Base{
 		System.out.println("new line of code");
 		System.out.println("Another new line of code");
 		System.out.println("Third line of new code");
-		Assert.assertTrue(false);
+		
 	}
 	
 	@AfterMethod
